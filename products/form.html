@@ -1,0 +1,27 @@
+<html>
+	<body>
+		<h1 align="center">Product Insertion</h1>
+		<form method="POST"
+			action = "FindProduct.do">
+			Enter product<p>
+			<label for="barcode">Barcode (1 to 16 numbers):</label>
+			<input type="text" id="barcode" name="barcode" 
+			required minlength="1" maxlength="16" size="10">
+			<p>
+			<label for="name">Name (0 to 16 numbers):</label>
+			<input type="text" id="name" name="name" 
+			required minlength="0" maxlength="16" size="10">
+			<p>
+			<label for="color">Color (0 to 16 numbers):</label>
+			<input type="text" id="color" name="color" 
+			required minlength="0" maxlength="16" size="10">
+			<p>
+			<label for="description">Description (0 to 16 numbers):</label>
+			<input type="text" id="description" name="description" 
+			required minlength="0" maxlength="16" size="10">
+			
+			
+			<br><br>
+			<center>
+				<input type="SUBMIT">
+			</center>
